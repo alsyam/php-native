@@ -1,0 +1,27 @@
+{
+    "name": "alsyam/belajar-php-composer",
+    "description": "Belajar PHP Composer",
+    "type": "project",
+    "authors": [
+        {
+            "name": "alsyam",
+            "email": "malsyam69@gmail.com"
+        }
+    ],
+    "autoload":{
+        "psr-4":{
+            "ProgrammerZamanNow\\" :"src/"
+        }
+    },
+    "repositories":[
+        {
+            "type": "vcs",
+            "url" : "https://github.com/alsyam/belajar-php-composer-hello.git"         
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "programmerzamannow/belajar-php-composer-hello": "1.0.0",
+        "monolog/monolog" : "2.2.0"
+    }
+}
